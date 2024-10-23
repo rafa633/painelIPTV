@@ -172,7 +172,7 @@ $stmt->close();
                         '<?php echo htmlspecialchars($row['name']); ?>',
                         '<?php echo htmlspecialchars($row['username']); ?>',
                         '<?php echo htmlspecialchars($row['password']); ?>',
-                        '<?php echo htmlspecialchars('http://SEUSOTE.COM/usuario=' . urlencode($row['username']) . '&password=' . urlencode($row['password'])); ?>',
+                        '<?php echo htmlspecialchars('http://SEUSiTE.COM/usuario=' . urlencode($row['username']) . '&password=' . urlencode($row['password'])); ?>',
                         '<?php echo htmlspecialchars($row['valid_until']); ?>'
                     )">Ver Detalhes</button>
 
